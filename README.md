@@ -8,8 +8,8 @@ I will be using lot of apps in my day-to-day life. As a Software developer, when
 ## Observations
 ### Observation 1
 Inconsistent placement of 'add to cart button'  
-**Observed issue**
+**Observed issue**  
 ![Amazon observed issue](./images/amazon/observation_image_01.jpg)
 
-**Fixed the issue**
+**Fix for the issue**  
 ![Amazon fixed image](./images/amazon/fix_01.png)
