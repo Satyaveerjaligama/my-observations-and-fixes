@@ -1,8 +1,23 @@
 'use client';
-import { Button, Card, CardActionArea, CardContent, CardMedia, Grid, Typography } from "@mui/material";
+import { Button, Card, CardContent, Grid, Typography } from "@mui/material";
 import Image from "next/image";
 import styles from '../../styles/amazon.module.css';
-import { alexandria } from "@/utilities/fonts";
+
+/* 
+I have seen the inconsistent placement of the "Add to Cart" button, leading to blank spaces after the button for certain products.
+This happens because product-to-product the content that has to be shown to the user differs.
+
+I have addressed this issue with flex properties 
+display: flex
+flex-direction: column
+justify-content: space-between
+
+My approach involves dividing the product card into two parts: 
+1. Image and Product info
+2. Button
+
+Now, for all the products (irrespective of product info) the button will be placed at the bottom
+*/
 
 const Amazon = () => {
     const products = [
